@@ -18,10 +18,23 @@ ul {
     margin: 0 10px;
     color: black;
   }
-
-
   body {
     background-color: white;
     color: black;
     transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer{
+    background-color: #ffff0bdd;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }

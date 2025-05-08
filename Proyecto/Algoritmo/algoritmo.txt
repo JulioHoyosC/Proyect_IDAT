@@ -1,0 +1,36 @@
+Proceso CarritoConUsuarioPremium
+
+    Definir id, password, nombre, email Como Cadena
+    Definir descuento, total Como Real
+    Definir producto_nombre Como Cadena
+    Definir producto_precio Como Real
+
+    Escribir "Ingrese su ID de usuario:"
+    Leer id
+    Escribir "Ingrese su contraseña:"
+    Leer password
+
+    Si id = "julio123" Y password = "clave123" Entonces
+        nombre <- "Julio Hoyos"
+        email <- "julio@example.com"
+        descuento <- 10
+        Escribir "Login exitoso. Bienvenido ", nombre
+    Sino
+        Escribir "Usuario o contraseña incorrectos."
+        FinProceso
+    FinSi
+
+    Escribir "ID: ", id
+    Escribir "Nombre: ", nombre
+    Escribir "Email: ", email
+
+    producto_nombre <- "Monitor"
+    producto_precio <- 1200
+
+    Escribir "Producto agregado: ", producto_nombre, " - $", producto_precio
+
+    total <- producto_precio - (producto_precio * descuento / 100)
+
+    Escribir "Total con descuento aplicado (", descuento, "%): $", total
+
+FinProceso

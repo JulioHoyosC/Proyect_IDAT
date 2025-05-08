@@ -1,0 +1,23 @@
+
+Comienzo creando una clase "USUARIO", donde se guardara el
+id de usuario, password, nombre y email. Todo esto se
+utilizara luego para el login.
+
+Creo un carrito donde van a ir las compras del Usuario,
+donde podran ver que productos añadieron al carrito,
+ver el total de su carrito.Para eso creo funciones de
+agregarAlcarrito, verCarrito, totalCarrito.
+
+Tengo que tener una clase "Productos",donde tendremos los
+nombres, precios
+
+Creo una funcion de login que lo que hace es buscar dentro
+de "USUARIO" si los  id y password estan correctos.
+
+Extiendo una class llamada "UsuarioPremiun"(clase hija) de
+la class "Usuario"(Clase Padre).
+Para dar ciertos beneficios a las personas que adquieren
+una licencia premiun.
+
+
+
